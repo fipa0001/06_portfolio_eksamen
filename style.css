@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+/* forside */
 #index-page {
   overflow: hidden;
 }
@@ -62,6 +63,10 @@ img {
     line-height: 1.8;
     text-align: left;
     margin-bottom: 15px;
+  }
+
+  .tekst {
+    margin-top: 3rem;
   }
 }
 
