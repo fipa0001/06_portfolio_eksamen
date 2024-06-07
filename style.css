@@ -1,4 +1,4 @@
-/******** Overordnet ********/
+/********* OVERORDNET ********/
 * {
   margin: 0;
   padding: 0;
@@ -21,65 +21,98 @@ main {
   margin: 0 auto;
 }
 
-p {
-  font-family: "Raleway", sans-serif;
-  font-size: 17px;
-  line-height: 1.9;
-  text-align: left;
-}
-
-h1 {
-  font-family: "Patrick Hand SC";
-  font-size: 45px;
-  text-align: center;
-  color: black;
-  margin-bottom: 25px;
-}
-
 /* luft i siderne */
-.grid_1-1 {
+.grid_1-1,
+.grid2_1-1 {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
 }
 
+/* billeder fuld størrelse */
 img {
   width: 100%;
   height: auto;
 }
 
-/* Mobile */
-@media (max-width: 600px) {
+/* overskrifter og tekst */
+h1 {
+  font-family: "Patrick Hand SC";
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: "Patrick Hand SC";
+  font-size: 25px;
+  text-align: center;
+  margin-top: 2rem;
+  color: black;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+/********* desktop *********/
+@media (min-width: 750px) {
   h1 {
-    font-family: "Patrick Hand SC";
-    font-size: 30px;
-    text-align: center;
-    color: black;
-    margin-bottom: 25px;
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 25px;
+    margin-top: 0;
   }
 
   p {
-    font-family: "Raleway", sans-serif;
-    font-size: 15px;
-    line-height: 1.8;
-    text-align: left;
-    margin-bottom: 15px;
+    font-size: 17px;
+    line-height: 1.9;
   }
 
-  .tekst {
-    margin-top: 3rem;
-  }
-}
-
-/* Desktop */
-@media (min-width: 1000px) {
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 3rem;
   }
 
+  /* om mig */
   .billedemig {
     margin-top: 80px;
-    padding: 20px;
+    margin-top: 8rem;
+  }
+
+  /* grund web */
+  .grid2_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tekstv {
+    grid-column: 2/3;
+    margin-top: 3.3rem;
+  }
+
+  .billedev {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 25px;
+  }
+
+  /* grund ux */
+  .billedeh {
+    margin-top: 3.5rem;
+    padding: 15px;
+  }
+
+  .tekstvu {
+    grid-column: 2/3;
+    margin-top: 1.5rem;
   }
 }
