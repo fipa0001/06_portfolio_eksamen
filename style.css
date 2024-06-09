@@ -45,6 +45,21 @@ img {
   margin: 0 10px;
 }
 
+/* link knap */
+.small-btn {
+  padding: 4px 10px; /* juster polstring for at definere størrelsen på knappen */
+  color: black; /* farven på teksten */
+  border: 2px ridge; /* kantlinje */
+  border-radius: 20px; /* afrundede kanter for et mere moderne udseende */
+  cursor: pointer; /* ændrer markøren til en hånd, når man svæver over knappen */
+  text-decoration: none; /* Fjerner understregningen under teksten */
+}
+
+.small-btn:hover {
+  border-color: black; /* skift kantlinjefarven, når musen svæver over knappen */
+  color: #0025f3;
+}
+
 /* overskrifter og tekst */
 h1 {
   font-family: "Patrick Hand SC";
@@ -156,5 +171,20 @@ p {
 
   .billedehi {
     padding: 15px;
+  }
+
+  /* link knap */
+  .small-btn {
+    padding: 6px 12px; /* juster polstring for at definere størrelsen på knappen */
+    color: black; /* farven på teksten */
+    border: 2px ridge; /* kantlinje */
+    border-radius: 20px; /* afrundede kanter for et mere moderne udseende */
+    cursor: pointer; /* ændrer markøren til en hånd, når man svæver over knappen */
+    text-decoration: none; /* Fjerner understregningen under teksten */
+  }
+
+  .small-btn:hover {
+    border-color: black; /* skift kantlinjefarven, når musen svæver over knappen */
+    color: #0025f3;
   }
 }
