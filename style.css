@@ -34,6 +34,17 @@ img {
   height: auto;
 }
 
+/* footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+.footer img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
 /* overskrifter og tekst */
 h1 {
   font-family: "Patrick Hand SC";
