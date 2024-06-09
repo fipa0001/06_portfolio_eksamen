@@ -115,4 +115,35 @@ p {
     grid-column: 2/3;
     margin-top: 1.5rem;
   }
+
+  /* animation */
+  .billedeha {
+    margin-top: 2rem;
+    padding: 15px;
+  }
+
+  .tekstva {
+    grid-column: 2/3;
+    margin-top: 5.6rem;
+  }
+
+  /* grund indhold */
+  .billedevi {
+    grid-row: 1/2;
+    padding: 25px;
+    margin-top: 0;
+  }
+
+  .tekstvi {
+    margin-top: 2.5rem;
+  }
+
+  .teksthi {
+    grid-column: 2/3;
+    margin-top: 10rem;
+  }
+
+  .billedehi {
+    padding: 15px;
+  }
 }
