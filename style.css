@@ -187,4 +187,15 @@ p {
     border-color: black; /* skift kantlinjefarven, når musen svæver over knappen */
     color: #0025f3;
   }
+
+  /* footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+  }
+  .footer img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+  }
 }
