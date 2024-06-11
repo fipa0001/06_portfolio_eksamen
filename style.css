@@ -42,6 +42,7 @@ img {
   border-radius: 20px; /* runde kanter */
   cursor: pointer; /* ændrer markøren til en hånd, når man svæver over knappen */
   text-decoration: none; /* fjerner understregningen under teksten */
+  margin-left: 0.2rem; /* mellemrum fra tekst til link */
 }
 
 .small-btn:hover {
@@ -183,6 +184,7 @@ p {
     border-radius: 20px; /* runde kanter */
     cursor: pointer; /* ændrer markøren til en hånd, når man svæver over knappen */
     text-decoration: none; /* fjerner understregningen under teksten */
+    margin-left: 0.3rem; /* mellemrum fra tekst til link */
   }
 
   .small-btn:hover {
