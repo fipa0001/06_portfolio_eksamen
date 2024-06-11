@@ -1,4 +1,4 @@
-/********* OVERORDNET ********/
+/********* OVERORDNET STYLE ********/
 * {
   margin: 0;
   padding: 0;
@@ -34,6 +34,21 @@ img {
   height: auto;
 }
 
+/* link knap */
+.small-btn {
+  padding: 4px 10px; /* definere størrelsen på knappen */
+  color: #57c6ef; /* farven på teksten */
+  border: 1.4px solid black; /* kantlinje */
+  border-radius: 20px; /* runde kanter */
+  cursor: pointer; /* ændrer markøren til en hånd, når man svæver over knappen */
+  text-decoration: none; /* fjerner understregningen under teksten */
+}
+
+.small-btn:hover {
+  border-color: black; /* skift kantlinjefarven, når musen svæver over knappen */
+  color: #0025f3;
+}
+
 /* footer */
 .footer {
   padding: 20px;
@@ -46,21 +61,6 @@ img {
 }
 .footericon {
   text-decoration: none;
-}
-
-/* link knap */
-.small-btn {
-  padding: 4px 10px; /* juster polstring for at definere størrelsen på knappen */
-  color: black; /* farven på teksten */
-  border: 2px ridge; /* kantlinje */
-  border-radius: 20px; /* afrundede kanter for et mere moderne udseende */
-  cursor: pointer; /* ændrer markøren til en hånd, når man svæver over knappen */
-  text-decoration: none; /* Fjerner understregningen under teksten */
-}
-
-.small-btn:hover {
-  border-color: black; /* skift kantlinjefarven, når musen svæver over knappen */
-  color: #0025f3;
 }
 
 /* overskrifter og tekst */
@@ -177,17 +177,17 @@ p {
 
   /* link knap */
   .small-btn {
-    padding: 6px 12px; /* juster polstring for at definere størrelsen på knappen */
-    color: black; /* farven på teksten */
-    border: 2px ridge; /* kantlinje */
-    border-radius: 20px; /* afrundede kanter for et mere moderne udseende */
+    padding: 6px 12px; /* definere størrelsen på knappen */
+    color: #57c6ef; /* farven på teksten */
+    border: 1.5px solid black; /* kantlinje */
+    border-radius: 20px; /* runde kanter */
     cursor: pointer; /* ændrer markøren til en hånd, når man svæver over knappen */
-    text-decoration: none; /* Fjerner understregningen under teksten */
+    text-decoration: none; /* fjerner understregningen under teksten */
   }
 
   .small-btn:hover {
     border-color: black; /* skift kantlinjefarven, når musen svæver over knappen */
-    color: #0025f3;
+    color: black;
   }
 
   /* footer */
