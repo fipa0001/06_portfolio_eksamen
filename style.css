@@ -42,7 +42,10 @@ img {
 .footer img {
   width: 30px;
   height: 30px;
-  margin: 0 10px;
+  margin: 5px;
+}
+.footericon {
+  text-decoration: none;
 }
 
 /* link knap */
@@ -193,8 +196,12 @@ p {
     text-align: center;
   }
   .footer img {
-    width: 30px;
-    height: 30px;
-    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+
+  .footericon {
+    text-decoration: none;
   }
 }
